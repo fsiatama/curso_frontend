@@ -1,0 +1,52 @@
+@import "normalize.styl"
+
+gris_oscuro = #333333
+gris_claro = #818181
+body
+	font-family 'Varela Round', sans-serif
+	font-size 16px
+figure
+	margin 0
+a
+	text-decoration none
+//buttons 
+.button-menu
+	position absolute
+	top 50%
+	margin-top -10px
+	left .5em
+.container
+	padding 1.4rem
+	font-size 0
+	text-align center
+.name
+	color gris_oscuro
+.menu
+	display none
+.autor
+	color gris_claro
+.header
+	height 3.5em
+	a 
+		display none
+	.title
+		font-size 1.1em
+		text-align center
+		line-height 3.5em
+		
+.song
+	display inline-block
+	font-size 1rem
+	margin-right 1em
+	margin-bottom 1em
+	width 8rem
+	text-align left
+	&:nth-child(even)
+		margin-right 0
+	p
+		margin .5em 0
+		
+.relative
+	position: relative
+
+
